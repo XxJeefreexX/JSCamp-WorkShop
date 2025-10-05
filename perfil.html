@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+    <title>DEV JOBS | MI PERFIL</title>
+  </head>
+  <body>
+    <header>
+      <h1>DevJobs</h1>
+
+      <nav>
+        <a href="">Inicio</a>
+        <a href="">Empleos</a>
+      </nav>
+
+      <div>
+        <a href="">Publicar un empleo</a>
+        <a href="">Iniciar sesión</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <header>
+          <h2>Mi Perfil</h2>
+          <p>Actualiza tu informacion personal y profesional</p>
+        </header>
+        <form action="/">
+          <fieldset>
+            <h3>Informacion personal</h3>
+            <label for="Nombre"
+              >Nombre:
+              <input
+                type="text"
+                id="Nombre"
+                name="Nombre"
+                placeholder="Victor Jhoann Patino Castellar"
+            /></label>
+            <label for="correo"
+              >Correo:
+              <input
+                type="email"
+                id="correo"
+                name="correo"
+                placeholder="victor@example.com"
+            /></label>
+            <label for="ubicacion"
+              >Ubicación:
+              <input
+                type="text"
+                id="ubicacion"
+                name="ubicacion"
+                placeholder="Cumana"
+            /></label>
+            <label for="sobre-mi"
+              >Sobre mí:
+              <textarea
+                maxlength="140"
+                id="sobre-mi"
+                name="sobre-mi"
+                placeholder="Escribe algo sobre ti..."
+              ></textarea>
+            </label>
+            <hr />
+            <h3>Experiencia laboral</h3>
+            <label for="cargo"
+              >Cargo:
+              <input
+                type="text"
+                id="cargo"
+                name="cargo"
+                placeholder="Desarrollador Senior"
+            /></label>
+            <label for="empresa"
+              >Empresa:
+              <input
+                type="text"
+                id="empresa"
+                name="empresa"
+                placeholder="Ejemplo S.A."
+            /></label>
+            <label for="tiempo-de-experiencia"
+              >Tiempo de experiencia:
+              <input
+                type="text"
+                id="tiempo-de-experiencia"
+                name="tiempo-de-experiencia"
+                placeholder="5 años"
+            /></label>
+            <hr />
+            <h3>Habilidades</h3>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>React</span>
+            <h3>CV</h3>
+            <div>
+              <label draggable="true"
+                ><strong>Sube tu CV</strong> o arrastra tu archivo aquí PDF,
+                DOC, DOCX (MAX. 5MB)
+                <input size="200" type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" />
+              </label>
+            </div>
+          </fieldset>
+          <button type="submit">Guardar cambios</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
