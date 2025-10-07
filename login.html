@@ -4,38 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEVJOBS | LOGIN</title>
-    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <link rel="stylesheet" href="./styles.luis.css">
   </head>
   <body>
     <header>
       <h1>DevJobs</h1>
 
       <nav>
-        <a href="#">Search</a>
-        <a href="#">Companies</a>
-        <a href="#">About</a>
+        <a href="#">Buscar</a>
+        <a href="#">Empresas</a>
+        <a href="#">Acerca de</a>
       </nav>
 
-      <button>Post a Job</button>
-      <button>Sign in</button>
+      <button>Publicar un empleo</button>
+      <button>Iniciar sesión</button>
     </header>
-
+    
     <main>
-      <h1>Welcome Back</h1>
-      <h2>Log in to find your next opportunity</h2>
+      <h1>Bienvenido</h1>
+      <h2>Inicia sesión para encontrar tu próxima oportunidad</h2>
 
       <section>
-        <form method="post">
+        <form method="post" class="login-form">
           <input type="text" name="email" id="email" placeholder="Email" />
           <input type="password" name="password" placeholder="Password" />
           <input type="checkbox" name="remember" id="remember" />
-          <a href="#">Forgot password?</a>
-          <button>Log in</button>
+          <label for="remember">Recuérdame</label>
+          <a href="#">Olvidaste tu contraseña?</a>
+          <button>Iniciar sesión</button>
 
-          <a href="#">Dont have a account?</a>
+          <a href="#">No tienes una cuenta?</a>
         </form>
-        <button>Sign up as a developer</button>
-        <button>Sign up as a company</button>
+        <button>Regístrate como desarrollador</button>
+        <button>Regístrate como empresa</button>
       </section>
     </main>
   </body>
