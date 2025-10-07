@@ -19,9 +19,3 @@
   --input-bg: #1e293b;
   --hsla-example: hsla(210, 100%, 56%, 1);
 }
-
-h1 {
-  font-size: 18px;
-  font-weight: bolder;
-  color: yellow;
-}
