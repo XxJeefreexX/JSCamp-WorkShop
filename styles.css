@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   --primary: #3b4550;
   --primary-dark: #0a3d66;
@@ -19,4 +18,10 @@
   --shadow: rgba(0, 0, 0, 0.3);
   --input-bg: #1e293b;
   --hsla-example: hsla(210, 100%, 56%, 1);
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bolder;
+  color: yellow;
 }
