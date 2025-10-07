@@ -20,3 +20,44 @@
   --hsla-example: hsla(210, 100%, 56%, 1);
 }
 
+.container {
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.container h1 {
+    color: var(--text-primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5rem;
+}
+
+.container p {
+    color: var(--text-secondary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form {
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 6px var(--shadow);
+    border-radius: 16px;
+    padding: 2rem 1rem;
+    margin: 40px 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    background-color: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
