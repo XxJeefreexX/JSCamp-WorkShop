@@ -21,28 +21,22 @@
     </header>
 
     <main class="container">
-      <h1>Bienvenido</h1>
-      <p>Inicia sesión para encontrar tu próxima oportunidad</p>
+      <section>
+        <header>
+          <h1>Bienvenido</h1>
+          <p>Inicia sesión para encontrar tu próxima oportunidad</p>
+        </header>
 
-      <section class="login-form">
-        <form method="post">
-          <div>
-            <input type="text" name="email" id="email" placeholder="Email" />
-          </div>
-          <div>
-            <input type="password" name="password" placeholder="Password" />
-          </div>
-
-          <a href="#">Olvidaste tu contraseña?</a>
+        <form method="post" class="login-form">
+          <input type="text" name="email" id="email" placeholder="Email" />
+          <input type="password" name="password" placeholder="Password" />
           <button>Iniciar sesión</button>
 
-          <a href="#">No tienes una cuenta?</a>
+          <div class="links">
+            <a href="#">No tienes una cuenta?</a>
+            <a href="#">Olvidaste tu contraseña?</a>
+          </div>
         </form>
-
-        <input type="checkbox" name="remember" id="remember" />
-        <label for="remember">Recuérdame</label>
-        <button>Regístrate como desarrollador</button>
-        <button>Regístrate como empresa</button>
       </section>
     </main>
   </body>
