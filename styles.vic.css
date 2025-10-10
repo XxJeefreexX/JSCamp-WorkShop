@@ -86,8 +86,8 @@ body {
 }
 
 .button-fullblue:hover {
-  color: var(--text-primary);
-  background-color: var(--primary-light);
+  background-color: #2e6e30ff;
+  pointer-events: none;
 }
 
 .button-fullgray {

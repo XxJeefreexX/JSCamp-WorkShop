@@ -6,6 +6,7 @@
     <title>DEVJOBS | BUSCADOR DE EMPLEO</title>
     <link rel="stylesheet" href="./styles.luis.css" />
     <link rel="stylesheet" href="./styles.vic.css" />
+    <script src="./script.js" type="module"></script>
   </head>
   <body>
     <header class="main-header">
@@ -31,9 +32,17 @@
         <p>Explora las miles de posibilidades</p>
         <form>
           <div class="search-bar">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="#fff"
+            >
               <path fill="none" d="M0 0h24v24H0z" />
-              <path d="M10 2a8 8 0 1 0 5.29 14.71l4.3 4.3 1.42-1.42-4.3-4.3A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z" />
+              <path
+                d="M10 2a8 8 0 1 0 5.29 14.71l4.3 4.3 1.42-1.42-4.3-4.3A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"
+              />
             </svg>
             <input
               type="search"
@@ -72,8 +81,8 @@
         </form>
       </section>
 
-      <h2>Resultados de búsqueda</h2>
       <section class="job-results">
+        <h2>Resultados de búsqueda</h2>
         <div class="job-listings">
           <article>
             <div>
@@ -83,7 +92,7 @@
                 Buscamos un desarrollador frontend con experiencia en React.
               </p>
             </div>
-            <button>Aplicar</button>
+            <button class="button-aply-job">Aplicar</button>
           </article>
 
           <article>
@@ -95,7 +104,7 @@
                 volúmenes de datos.
               </p>
             </div>
-            <button>Aplicar</button>
+            <button class="button-aply-job">Aplicar</button>
           </article>
 
           <article>
@@ -107,7 +116,7 @@
                 TI.
               </p>
             </div>
-            <button>Aplicar</button>
+            <button class="button-aply-job">Aplicar</button>
           </article>
 
           <article>
@@ -116,7 +125,7 @@
               <small>WebWorks | Caracas, Venezuela</small>
               <p>Experiencia en Node.js y bases de datos NoSQL.</p>
             </div>
-            <button>Aplicar</button>
+            <button class="button-aply-job">Aplicar</button>
           </article>
         </div>
       </section>
