@@ -30,7 +30,82 @@ body {
   --hsla-example: hsla(210, 100%, 56%, 1);
 }
 
-.container {
+.job-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  margin-top: 3rem;
+
+  h1 {
+    color: var(--text-primary);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: var(--text-secondary);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+}
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  position: relative;
+  width: 50vw;
+
+  input {
+    background-color: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 15px 50px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  svg {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;}
+}
+
+.search-filters {
+  margin-top: 1rem;
+
+  select {
+    background-color: var(--input-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 8rem;
+
+    option {
+      background-color: var(--input-bg);
+      color: var(--text-primary);
+    }
+  }
+}
+
+/* .container {
   background-color: var(--background);
   width: 100vw;
   height: 100vh;
@@ -130,4 +205,4 @@ p {
   color: var(--primary-hover);
   text-decoration: underline;
   transition: all 0.3s ease;
-}
+} */

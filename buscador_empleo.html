@@ -5,37 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEVJOBS | BUSCADOR DE EMPLEO</title>
     <link rel="stylesheet" href="./styles.luis.css" />
+    <link rel="stylesheet" href="./styles.vic.css" />
   </head>
   <body>
-    <header>
-      <h1>DevJobs</h1>
+    <header class="main-header">
+      <div class="logo">
+        <img src="assets/setting.svg" alt="setting logo" />
+        <h1>DevJobs</h1>
+      </div>
 
       <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Empleos</a>
-        <a href="#">Empresas</a>
-        <a href="#">Salarios</a>
+        <a href="./index.html">Inicio</a>
+        <a href="./buscador_empleo.html">Empleos</a>
       </nav>
 
       <div>
-        <a href="#">Empleos</a>
-        <button>Hello</button>
+        <button class="button-fullblue">Publicar un empleo</button>
+        <button class="button-fullgray">Iniciar sesión</button>
       </div>
     </header>
 
     <main>
-      <section class="jobs-searching">
-        <h1>Buscador de Empleo</h1>
-        <p>Encuentra las mejores ofertas de trabajo para desarrolladores.</p>
-      </section>
-    </main>
-
-    <main>
-      <section class="job search">
+      <section class="job-search">
         <h1>Encuentra tu próximo trabajo</h1>
         <p>Explora las miles de posibilidades</p>
-        <form action="">
+        <form>
           <div class="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M10 2a8 8 0 1 0 5.29 14.71l4.3 4.3 1.42-1.42-4.3-4.3A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z" />
+            </svg>
             <input
               type="search"
               name=""
@@ -46,21 +45,25 @@
 
           <div class="search-filters">
             <select name="tecnologias" id="tecnologias">
+              <option value="" disabled hidden selected>Tecnología</option>
               <option value="JavaScript">JavaScript</option>
               <option value="Python">Python</option>
               <option value="Java">Java</option>
             </select>
             <select name="ubicacion" id="ubicacion">
+              <option value="" disabled hidden selected>Ubicación</option>
               <option value="caracas">Caracas</option>
               <option value="madrid">Madrid</option>
               <option value="mexico">México</option>
             </select>
             <select name="tipo-contrato" id="tipo-contrato">
+              <option value="" disabled hidden selected>Contrato</option>
               <option value="temporal">Temporal</option>
               <option value="indefinido">Indefinido</option>
               <option value="practicas">Prácticas</option>
             </select>
             <select name="nivel-experiencia" id="nivel-experiencia">
+              <option value="" disabled hidden selected>Experiencia</option>
               <option value="junior">Junior</option>
               <option value="senior">Senior</option>
               <option value="manager">Manager</option>
@@ -68,7 +71,7 @@
           </div>
         </form>
       </section>
-      
+
       <h2>Resultados de búsqueda</h2>
       <section class="job-results">
         <div class="job-listings">
