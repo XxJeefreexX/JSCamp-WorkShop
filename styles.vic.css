@@ -44,11 +44,10 @@ body {
 .global-container {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
-  justify-items: center;
+  padding: 1rem;
   align-items: center;
-  height: 100vh;
   gap: 4em;
+  margin-bottom: 2em;
 }
 
 .main-header {
@@ -111,22 +110,28 @@ body {
 }
 
 .main-footer {
-  color: var(--text-secondary);
   text-align: center;
-  padding: 1em;
-
-  text-decoration: overline;
+  border-top: solid 1px var(--border);
+  padding: 1.5em;
+  small {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+  }
 }
 
-.search-container {
+.job-search {
   display: flex;
   flex-direction: column;
-  gap: 1em;
   justify-content: center;
   align-items: center;
+  gap: 2em;
   width: 100%;
   height: 50vh;
-  background: linear-gradient(to bottom, rgba(8, 0, 8, 0.2), rgba(8, 0, 8, 0.7)),
+  background: linear-gradient(
+      to bottom,
+      rgba(68, 62, 66, 0.5),
+      rgba(27, 20, 27, 0.7)
+    ),
     url(https://soject.com/wp-content/uploads/2020/08/annie-spratt-QckxruozjRg-unsplash-1-1024x683.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,39 +140,101 @@ body {
   h1 {
     font-size: 48px;
   }
+  p {
+    color: var(--text-muted);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    .search-bar {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      position: relative;
+      width: 50vw;
+
+      input {
+        background-color: var(--input-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 15px 50px;
+        width: 100%;
+        color: var(--text-primary);
+      }
+
+      svg {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+
+      button[type="submit"] {
+        background-color: var(--primary-light);
+        color: var(--text-primary);
+        border: none;
+        border-radius: 8px;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
 }
 
-.input-container {
-  position: relative;
-  width: 300px; /* Adjust as needed */
-  display: flex; /* Helps align items */
-  align-items: center;
-  gap: 2em;
-  width: 50%;
-}
+.announcements {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+    margin-top: 5em;
 
-.input-field {
-  width: 100%;
-  padding: 1.5em 40px 10px 40px; /* Adjust padding for icon and button */
-  border: none;
-  border-radius: 5px;
-  background-color: var(--input-bg);
-  color: var(--text-primary);
-}
+    h2 {
+      font-size: 28px;
+    }
+    p {
+      color: var(--text-muted);
+    }
+  }
 
-.icon {
-  position: absolute;
-  left: 10px;
-}
+  .job-listings {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 2.5em;
 
-.search-button {
-  position: absolute;
-  right: 5px;
-  padding: 8px 12px;
-  background-color: var(--primary-light);
-  color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  width: 5em;
+    .short-article {
+      background-color: var(--card-bg);
+      padding: 2rem;
+      border-radius: 8px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      align-items: center;
+      text-align: center;
+
+      p {
+        color: var(--text-muted);
+      }
+
+      svg {
+        border-radius: 50%;
+        background-color: var(--primary-hover);
+        fill: var(--primary-light);
+        width: 64px;
+        height: 64px;
+        padding: 16px;
+      }
+    }
+  }
 }

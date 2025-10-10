@@ -23,8 +23,10 @@
       </div>
 
       <nav>
-        <a href="">Inicio</a>
+        <a href="./index.html">Inicio</a>
         <a href="./buscador_empleo.html">Empleos</a>
+        <a href=".">Empresas</a>
+        <a href="">Salarios</a>
       </nav>
 
       <div>
@@ -33,28 +35,39 @@
       </div>
     </header>
 
-    <section class="search-container">
-      <h1>Encuentra el trabajo de tus sueños</h1>
-
+    <section class="job-search">
+      <h1>Encuentra tu próximo trabajo</h1>
       <p>
         Únete a la comunidad más grande de desarrolladores y encuentra tu
-        próxima oportunidad.
+        próxima oportunidad
       </p>
-
-      <div class="input-container">
-        <input
-          type="text"
-          placeholder="Buscar empleos por título, habilidad o empresa"
-          class="input-field"
-        />
-        <img src="assets/search.svg" alt="search" class="icon" />
-        <!-- Example Font Awesome icon -->
-        <button type="submit" class="search-button">Buscar</button>
-      </div>
+      <form>
+        <div class="search-bar">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            fill="#fff"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+              d="M10 2a8 8 0 1 0 5.29 14.71l4.3 4.3 1.42-1.42-4.3-4.3A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"
+            />
+          </svg>
+          <input
+            type="search"
+            name=""
+            id=""
+            placeholder="Buscar empleos por título, habilidad o empresas..."
+          />
+          <button type="submit">Buscar</button>
+        </div>
+      </form>
     </section>
 
     <main class="global-container">
-      <section>
+      <section class="announcements">
         <header>
           <h2>¿Por qué DevJobs?</h2>
           <p>
@@ -64,13 +77,10 @@
           </p>
         </header>
 
-        <footer>
-          <article>
+        <div class="job-listings">
+          <article class="short-article">
             <svg
-              fill="currentColor"
-              height="32"
               viewBox="0 0 256 256"
-              width="32"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
             >
@@ -84,12 +94,9 @@
             </p>
           </article>
 
-          <article>
+          <article class="short-article">
             <svg
-              fill="currentColor"
-              height="32"
               viewBox="0 0 256 256"
-              width="32"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
             >
@@ -103,12 +110,9 @@
             </p>
           </article>
 
-          <article>
+          <article class="short-article">
             <svg
-              fill="currentColor"
-              height="32"
               viewBox="0 0 256 256"
-              width="32"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
             >
@@ -121,7 +125,7 @@
               Obtén el salario que mereces con nuestra calculadora de salarios.
             </p>
           </article>
-        </footer>
+        </div>
       </section>
     </main>
 
