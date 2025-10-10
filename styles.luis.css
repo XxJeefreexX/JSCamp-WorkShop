@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: system-ui;
+  background-color: var(--background);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
 :root {
   --primary: #3b4550;
   --primary-dark: #0a3d66;
