@@ -119,7 +119,7 @@ body {
   }
 }
 
-.job-search {
+.index-job-search {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,7 +149,7 @@ body {
     flex-direction: column;
     align-items: start;
 
-    .search-bar {
+    .index-search-bar {
       display: flex;
       gap: 0.5rem;
       align-items: center;
