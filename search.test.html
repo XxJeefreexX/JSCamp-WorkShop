@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.vic.css" />
+    <script src="./scripts/search.js" type="module"></script>
+    <title>search test</title>
+  </head>
+  <body>
+    <main>
+      <header class="main-header">
+        <div class="logo">
+          <img src="assets/setting.svg" alt="setting logo" />
+          <h1>DevJobs</h1>
+        </div>
+
+        <nav>
+          <a href="./index.html">Inicio</a>
+          <a href="./buscador_empleo.html">Empleos</a>
+          <a href=".">Empresas</a>
+          <a href="">Salarios</a>
+        </nav>
+
+        <div>
+          <button class="button-fullblue">Publicar un empleo</button>
+          <button class="button-fullgray">Iniciar sesión</button>
+        </div>
+      </header>
+
+      <section class="index-job-search">
+        <h1>Encuentra tu próximo trabajo</h1>
+        <p>
+          Únete a la comunidad más grande de desarrolladores y encuentra tu
+          próxima oportunidad
+        </p>
+        <form>
+          <div class="index-search-bar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="#fff"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M10 2a8 8 0 1 0 5.29 14.71l4.3 4.3 1.42-1.42-4.3-4.3A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"
+              />
+            </svg>
+            <input
+              type="search"
+              name=""
+              id=""
+              placeholder="Buscar empleos por título, habilidad o empresas..."
+              search-input
+            />
+            <button type="submit">Buscar</button>
+          </div>
+        </form>
+      </section>
+      <div articles-container class="card-wrapper">
+        <template article-template>
+          <article class="card">
+            <h2 data-name>Name</h2>
+            <p data-description>Description</p>
+          </article>
+        </template>
+      </div>
+    </main>
+  </body>
+</html>

@@ -238,3 +238,23 @@ body {
     }
   }
 }
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  padding: 1em;
+
+  .card {
+    background-color: var(--primary);
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 8px;
+    justify-items: center;
+    border-bottom: solid 5px var(--border);
+  }
+}
+
+.hide {
+  display: none;
+}
