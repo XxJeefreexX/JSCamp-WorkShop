@@ -1,0 +1,297 @@
+[
+  {
+    "title": "Frontend Developer",
+    "description": "Seeking a frontend developer with strong skills in React, Redux, and modern CSS frameworks to build user-centric web applications.",
+    "company": "PixelPerfect Inc.",
+    "location": "Remote",
+    "requisites": {
+      "tecnologies": ["React", "Redux", "CSS3", "JavaScript", "HTML5"],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Computer Science or related field"
+    }
+  },
+  {
+    "title": "Backend Engineer (Python)",
+    "description": "Join our team to design and implement scalable backend services using Python, Django, and PostgreSQL. Experience with REST APIs is a must.",
+    "company": "DataWeavers",
+    "location": "Spain",
+    "requisites": {
+      "tecnologies": ["Python", "Django", "PostgreSQL", "REST APIs", "Docker"],
+      "experience": "Senior",
+      "education": "Bachelor's or Master's Degree in Software Engineering"
+    }
+  },
+  {
+    "title": "Full-Stack Developer",
+    "description": "We are looking for a versatile full-stack developer proficient in the MERN stack (MongoDB, Express, React, Node.js) to work on our flagship product.",
+    "company": "Innovatech",
+    "location": "Argentina",
+    "requisites": {
+      "tecnologies": [
+        "MongoDB",
+        "Express.js",
+        "React",
+        "Node.js",
+        "JavaScript"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree or equivalent experience"
+    }
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "Automate and streamline our operations and processes. Must have experience with AWS, Docker, Kubernetes, and CI/CD pipelines.",
+    "company": "CloudNative Solutions",
+    "location": "Chile",
+    "requisites": {
+      "tecnologies": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+      "experience": "Senior",
+      "education": "Bachelor's Degree in Computer Science or Cloud Certifications"
+    }
+  },
+  {
+    "title": "Mobile Developer (iOS)",
+    "description": "Develop and maintain our iOS application. Proficiency in Swift and SwiftUI is required. Experience with mobile CI/CD is a plus.",
+    "company": "AppMakers Co.",
+    "location": "New Zealand",
+    "requisites": {
+      "tecnologies": ["Swift", "SwiftUI", "iOS SDK", "Xcode", "Git"],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Software Development or equivalent"
+    }
+  },
+  {
+    "title": "Data Scientist",
+    "description": "Analyze large datasets to extract meaningful insights. Strong knowledge of Python, R, and machine learning libraries like Scikit-learn and TensorFlow is needed.",
+    "company": "Insightful Data",
+    "location": "Remote",
+    "requisites": {
+      "tecnologies": [
+        "Python",
+        "R",
+        "Scikit-learn",
+        "TensorFlow",
+        "SQL",
+        "Pandas"
+      ],
+      "experience": "Senior",
+      "education": "Master's or Ph.D. in Data Science, Statistics, or Computer Science"
+    }
+  },
+  {
+    "title": "UI/UX Designer",
+    "description": "Create intuitive and engaging user interfaces. Must have a strong portfolio showcasing your work with Figma, Sketch, and Adobe XD.",
+    "company": "Creative Minds",
+    "location": "Spain",
+    "requisites": {
+      "tecnologies": [
+        "Figma",
+        "Sketch",
+        "Adobe XD",
+        "User Research",
+        "Prototyping"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Design, HCI, or related field"
+    }
+  },
+  {
+    "title": "Software Engineer in Test (QA)",
+    "description": "Develop and execute automated tests to ensure product quality. Experience with Selenium, Cypress, or Playwright is highly desirable.",
+    "company": "QualityFirst",
+    "location": "Argentina",
+    "requisites": {
+      "tecnologies": [
+        "Selenium",
+        "Cypress",
+        "Playwright",
+        "Jira",
+        "Test Automation"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Computer Science or QA Certifications"
+    }
+  },
+  {
+    "title": "Junior Web Developer",
+    "description": "An exciting opportunity for a recent graduate to learn and grow. Basic knowledge of HTML, CSS, and JavaScript is required.",
+    "company": "NextGen Coders",
+    "location": "Chile",
+    "requisites": {
+      "tecnologies": ["HTML5", "CSS3", "JavaScript", "Git"],
+      "experience": "Junior",
+      "education": "Bootcamp completion or self-taught with portfolio"
+    }
+  },
+  {
+    "title": "Senior Backend Developer (Java)",
+    "description": "Lead the development of our core microservices. Expert in Java, Spring Boot, and building resilient, high-performance systems.",
+    "company": "Enterprise Systems",
+    "location": "Remote",
+    "requisites": {
+      "tecnologies": ["Java", "Spring Boot", "Microservices", "Kafka", "SQL"],
+      "experience": "Senior",
+      "education": "Bachelor's or Master's Degree in Computer Science"
+    }
+  },
+  {
+    "title": "React Native Developer",
+    "description": "Build cross-platform mobile applications for iOS and Android using React Native. You will be responsible for the full development lifecycle.",
+    "company": "MobileFirst Tech",
+    "location": "New Zealand",
+    "requisites": {
+      "tecnologies": [
+        "React Native",
+        "JavaScript",
+        "TypeScript",
+        "Redux",
+        "Firebase"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Software Development or equivalent"
+    }
+  },
+  {
+    "title": "Cloud Architect",
+    "description": "Design and oversee our company's cloud computing strategy. Deep expertise in either AWS, Azure, or GCP is essential.",
+    "company": "SkyHigh Infra",
+    "location": "Spain",
+    "requisites": {
+      "tecnologies": ["AWS", "Azure", "GCP", "Cloud Security", "Networking"],
+      "experience": "Lead",
+      "education": "Master's Degree or extensive Cloud Certifications"
+    }
+  },
+  {
+    "title": "Technical Product Manager",
+    "description": "Define product vision, strategy, and roadmap. You will work closely with engineering teams to guide products from conception to launch.",
+    "company": "ProductVisionary",
+    "location": "Remote",
+    "requisites": {
+      "tecnologies": [
+        "Agile",
+        "Scrum",
+        "Jira",
+        "Roadmapping",
+        "Market Analysis"
+      ],
+      "experience": "Senior",
+      "education": "Bachelor's Degree in Business, Engineering, or Computer Science"
+    }
+  },
+  {
+    "title": "Full-Stack Engineer (Ruby on Rails)",
+    "description": "Maintain and improve our existing Rails applications. We are looking for a developer who is passionate about writing clean, efficient, and maintainable code.",
+    "company": "RubyGems Inc.",
+    "location": "Argentina",
+    "requisites": {
+      "tecnologies": [
+        "Ruby",
+        "Ruby on Rails",
+        "JavaScript",
+        "PostgreSQL",
+        "HTML/CSS"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree or strong portfolio"
+    }
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "description": "Protect our digital assets by monitoring, detecting, and responding to security threats. Certifications like CISSP or CompTIA Security+ are a plus.",
+    "company": "SecureNet",
+    "location": "Chile",
+    "requisites": {
+      "tecnologies": [
+        "SIEM",
+        "Firewalls",
+        "Intrusion Detection",
+        "Penetration Testing",
+        "Compliance"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Cybersecurity or relevant certifications (CISSP, CompTIA Security+)"
+    }
+  },
+  {
+    "title": "WordPress Developer",
+    "description": "Customize and maintain WordPress sites for our clients. Strong PHP, HTML, CSS, and JavaScript skills are necessary. Experience with custom themes and plugins.",
+    "company": "WebCrafters",
+    "location": "Remote",
+    "requisites": {
+      "tecnologies": ["WordPress", "PHP", "HTML", "CSS", "JavaScript", "MySQL"],
+      "experience": "Mid-level",
+      "education": "Self-taught or relevant web development courses"
+    }
+  },
+  {
+    "title": "Game Developer (Unity)",
+    "description": "Join our creative team to develop exciting new mobile games using the Unity engine. Strong C# skills and a passion for gaming are a must.",
+    "company": "GameStorm Studios",
+    "location": "New Zealand",
+    "requisites": {
+      "tecnologies": [
+        "Unity",
+        "C#",
+        "Game Design",
+        "Mobile Development",
+        "3D Modeling (basic)"
+      ],
+      "experience": "Junior",
+      "education": "Bachelor's Degree in Game Development or Computer Science"
+    }
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "description": "Design, build, and deploy machine learning models. You will work on challenging problems in natural language processing and computer vision.",
+    "company": "AI Innovations",
+    "location": "Spain",
+    "requisites": {
+      "tecnologies": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "NLP",
+        "Computer Vision",
+        "AWS SageMaker"
+      ],
+      "experience": "Senior",
+      "education": "Master's or Ph.D. in AI, Machine Learning, or Computer Science"
+    }
+  },
+  {
+    "title": "Angular Developer",
+    "description": "We are looking for an experienced Angular developer to join our frontend team. You will be responsible for building modern, responsive web applications.",
+    "company": "Future Web",
+    "location": "Remote",
+    "requisites": {
+      "tecnologies": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "HTML5",
+        "CSS3",
+        "REST APIs"
+      ],
+      "experience": "Mid-level",
+      "education": "Bachelor's Degree in Computer Science or equivalent experience"
+    }
+  },
+  {
+    "title": "Lead Software Engineer",
+    "description": "Lead a team of talented engineers, provide technical guidance, and drive the architectural vision for our next-generation platform.",
+    "company": "Tech Leaders",
+    "location": "Argentina",
+    "requisites": {
+      "tecnologies": [
+        "System Design",
+        "Microservices",
+        "Cloud Platforms",
+        "Leadership",
+        "Agile Methodologies"
+      ],
+      "experience": "Lead",
+      "education": "Bachelor's or Master's Degree in Computer Science"
+    }
+  }
+]
